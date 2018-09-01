@@ -9,7 +9,9 @@
 
 (def ch (async/producer {:bootstrap.servers "localhost:9092"} :keyword :edn))
 
-(defn send-a-message [topic k v]
-  (let [product {:topic topic :key k :value v}])
+
+;; sending a wrong key, i.e. :key 7 (number) blocks the channel
+;; and further messages are not being produced
+(defn produce-a-message [producer-record]
   (go
-   (>! ch {:topic topic :key k :value v})))
+   (>! ch producer-record)))
