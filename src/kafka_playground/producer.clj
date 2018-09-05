@@ -1,4 +1,4 @@
-(ns kafka-playground.playground
+(ns kafka-playground.producer
   (:require [kinsky.client :as client]
             [kinsky.async :as async]
             [clojure.core.async :as a :refer [go chan <! >!]]))
