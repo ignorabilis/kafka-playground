@@ -5,6 +5,6 @@
 Use [spotify/kafka](https://hub.docker.com/r/spotify/kafka/) to quickly spin up a Kafka broker
 with Zookeeper in a single container.
 
-[Producer](src/kafka-playground/producer)
+[Producer](src/kafka_playground/producer.clj)
 
-[Consumer](src/kafka-playground/consumer)
+[Consumer](src/kafka_playground/consumer.clj)
