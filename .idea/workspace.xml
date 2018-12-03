@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88bee5b3-6a08-4b45-814f-3ce91ec14947" name="Default" comment="">
+    <list default="true" id="88bee5b3-6a08-4b45-814f-3ce91ec14947" name="Default" comment="Re">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kafka_playground/kinsky_client_clone.clj" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kafka-playground/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kafka-playground/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kafka-playground/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kafka-playground/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kafka-playground/doc/intro.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kafka-playground/project.clj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kafka-playground/src/kafka_playground/core.clj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kafka-playground/test/kafka_playground/core_test.clj" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-playground.iml" afterPath="$PROJECT_DIR$/kafka-playground.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kafka_playground/consumer.clj" afterPath="$PROJECT_DIR$/src/kafka_playground/consumer.clj" />
     </list>
     <ignored path="kafka-playground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,43 +36,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <marker date="1535806014831" expanded="true" signature="0:474" ph="(defproject kafka-playground ...)" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".nrepl-port" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.nrepl-port">
+      <file leaf-file-name="producer.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kafka_playground/producer.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kafka_playground/core.clj">
+      <file leaf-file-name="consumer.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kafka_playground/consumer.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playground.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/kafka_playground/playground.clj">
+      <file leaf-file-name="kinsky_client_clone.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kafka_playground/kinsky_client_clone.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="326">
+              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="170">
+                <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Serializer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/Serializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortDeserializer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/ShortDeserializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortSerializer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/ShortSerializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringSerializer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/StringSerializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloatSerializer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/FloatSerializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Serdes.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/Serdes.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -79,9 +155,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/kafka_playground/producer.clj" />
         <option value="$PROJECT_DIR$/src/kafka_playground/playground.clj" />
+        <option value="$PROJECT_DIR$/src/kafka_playground/consumer.clj" />
+        <option value="$PROJECT_DIR$/src/kafka_playground/kinsky_client_clone.clj" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -133,8 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,6 +222,46 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kafka-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leiningen: org.apache.kafka/kafka-clients:1.1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kafka-clients-1.1.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kafka-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leiningen: org.apache.kafka/kafka-clients:1.1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kafka-clients-1.1.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -178,17 +295,19 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Clojure" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tests/demo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="ReplState" timestamp="1535807996414">{:repl-history {:ide [], :local [&quot;go&quot; &quot;(go)&quot; &quot;ch&quot; &quot;(send-a-message\n \&quot;my_topic\&quot;\n :some-key\n {:some-val 1})&quot; &quot;(send-a-message\n \&quot;my_topic\&quot;\n nil\n {:some-val 1})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value {:some-val 222}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;some\&quot;\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key 6\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;6\&quot;\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key :a\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value \&quot;fjkdj\&quot;})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key 1\n  :value {:some-key 1}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;1\&quot;\n  :value {:some-key 1}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key :a\n  :value {:some-key 1}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value {:some-key 1}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value {:some-key 2}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key :a\n  :value {:some-key 2}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;a\&quot;\n  :value {:some-key 2}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;a\&quot;\n  :value {:some-key 77}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key 7\n  :value {:some-key 7}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;a\&quot;\n  :value {:some-key 7}})&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1537261019253">{:repl-history {:ide [], :local [&quot;go&quot; &quot;(go)&quot; &quot;ch&quot; &quot;(send-a-message\n \&quot;my_topic\&quot;\n :some-key\n {:some-val 1})&quot; &quot;(send-a-message\n \&quot;my_topic\&quot;\n nil\n {:some-val 1})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value {:some-val 222}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;some\&quot;\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key 6\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;6\&quot;\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key :a\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value 3.14})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value \&quot;fjkdj\&quot;})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key 1\n  :value {:some-key 1}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;1\&quot;\n  :value {:some-key 1}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key :a\n  :value {:some-key 1}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value {:some-key 1}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :value {:some-key 2}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key :a\n  :value {:some-key 2}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;a\&quot;\n  :value {:some-key 2}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;a\&quot;\n  :value {:some-key 77}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key 7\n  :value {:some-key 7}})&quot; &quot;(send-a-message\n {:topic \&quot;my_topic\&quot;\n  :key \&quot;a\&quot;\n  :value {:some-key 7}})&quot; &quot;(produce-a-message\n {:topic my-topic\n  :value {:simple 1}})&quot; &quot;(go (throw (Exception. \&quot;OOOOOOOOOOOOHHHH NNOOOOOOOOO!!\&quot;)))&quot; &quot;(go\n  (try\n    (throw (Exception. \&quot;Not again!!\&quot;))\n    (catch Exception e\n      (&gt;! ex-chan e))))&quot; &quot;(produce-a-message\n {:topic my-topic\n  :key 7\n  :value {:simple 1}})&quot; &quot;(produce-a-message\n {:topic my-topic\n  :key :a\n  :value {:simple 1}})&quot; &quot;(async/consumer {:bootstrap.servers \&quot;localhost:9092\&quot;\n                 ;:group.id          (str (UUID/randomUUID))\n                 :dubplex? true\n                 }\n                #_:keyword\n                #_:edn\n                (client/keyword-deserializer)\n                (client/edn-deserializer))&quot; &quot;(async/consumer {:bootstrap.servers \&quot;localhost:9092\&quot;\n                 ;:group.id          (str (UUID/randomUUID))\n                 :duplex? true\n                 }\n                #_:keyword\n                #_:edn\n                (client/keyword-deserializer)\n                (client/edn-deserializer))&quot; &quot;(produce-a-message\n {:topic \&quot;my_topic\&quot;\n  :value 1})&quot; &quot;(a/put! ch {:op :partitions-for :topic topic})&quot; &quot;(a/put! ch {:op :commit})&quot; &quot;(reify\n  Serializer)&quot; &quot;(edn-serializer)&quot; &quot;(type 1)&quot; &quot;(type [])&quot; &quot;(type edn-serializer)&quot; &quot;(type (edn-serializer))&quot; &quot;(instance? \n (edn-serializer)\n Serializer)&quot; &quot;(instance?\n Serializer\n (edn-serializer)\n )&quot; &quot;(instance?\n java.lang.Long\n (edn-serializer)\n )&quot; &quot;(require 'clojure.reflect)&quot; &quot;(require '[clojure.reflect :as r])&quot; &quot;(r/reflect ser)&quot; &quot;(.configure ser)&quot; &quot;(def ser (edn-serializer))&quot; &quot;(.configure ser {} false)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.Unnamed">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -334,12 +453,14 @@
       <method />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local">
-      <setting name="replType" value="1" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
       <module name="" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -674,12 +795,14 @@
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="ClojureREPL" factoryName="Local">
-      <setting name="replType" value="1" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
       <module name="kafka-playground" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
       <method />
     </configuration>
     <list size="1">
@@ -702,7 +825,9 @@
       <option name="presentableId" value="Default" />
       <updated>1535805631813</updated>
       <workItem from="1535805633600" duration="2140000" />
-      <workItem from="1535807786009" duration="211000" />
+      <workItem from="1535807786009" duration="8645000" />
+      <workItem from="1536932248108" duration="2725000" />
+      <workItem from="1543832688781" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="ignore idea files">
       <created>1535807924321</created>
@@ -718,11 +843,32 @@
       <option name="project" value="LOCAL" />
       <updated>1535807974894</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change producing a message">
+      <created>1535808000696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535808000696</updated>
+    </task>
+    <task id="LOCAL-00004" summary="some exception handling techniques for channels">
+      <created>1535808808882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535808808882</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Producer and consumer (consumer not working, something wrong with the docs)">
+      <created>1536165728632</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536165728632</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2351000" />
+    <option name="totallyTimeSpent" value="13655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="-8" width="1858" height="1096" extended-state="6" />
@@ -730,12 +876,11 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953313" sideWeight="0.5040568" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5040568" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.49594322" order="3" side_tool="false" content_ui="tabs" />
@@ -756,6 +901,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -774,7 +920,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignore idea files" />
     <MESSAGE value="change producing a message" />
-    <option name="LAST_COMMIT_MESSAGE" value="change producing a message" />
+    <MESSAGE value="some exception handling techniques for channels" />
+    <MESSAGE value="Producer and consumer (consumer not working, something wrong with the docs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Producer and consumer (consumer not working, something wrong with the docs)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -785,13 +933,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/producer.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/consumer.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/kinsky_client_clone.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/Serializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/ShortDeserializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/ShortSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/StringSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/FloatSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/Serdes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/spootnik/kinsky/0.1.22/kinsky-0.1.22.jar!/kinsky/async.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3808">
+          <caret line="224" column="15" selection-start-line="224" selection-start-column="15" selection-end-line="224" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1535806014831" expanded="true" signature="0:474" ph="(defproject kafka-playground ...)" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,11 +1031,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/producer.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kafka_playground/playground.clj">
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/consumer.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -819,19 +1050,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.nrepl-port">
+    <entry file="jar://$MAVEN_REPOSITORY$/spootnik/kinsky/0.1.22/kinsky-0.1.22.jar!/kinsky/async.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="3808">
+          <caret line="224" column="15" selection-start-line="224" selection-start-column="15" selection-end-line="224" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kafka_playground/core.clj">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/core.async/0.4.474/core.async-0.4.474.jar!/clojure/core/async.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="2652">
+          <caret line="156" column="6" selection-start-line="156" selection-start-column="6" selection-end-line="156" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/spootnik/kinsky/0.1.22/kinsky-0.1.22.jar!/kinsky/client.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="188" column="6" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -839,22 +1076,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1535806014831" expanded="true" signature="0:474" ph="(defproject kafka-playground ...)" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/.nrepl-port">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/playground.clj" />
+    <entry file="file://$PROJECT_DIR$/.nrepl-port">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -866,11 +1116,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kafka_playground/playground.clj">
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/playground.clj" />
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/spootnik/kinsky/0.1.22/kinsky-0.1.22.jar!/kinsky/client.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="188" column="6" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/core.async/0.4.474/core.async-0.4.474.jar!/clojure/core/async.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="156" column="6" selection-start-line="156" selection-start-column="6" selection-end-line="156" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/spootnik/kinsky/0.1.22/kinsky-0.1.22.jar!/kinsky/async.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3808">
+          <caret line="224" column="15" selection-start-line="224" selection-start-column="15" selection-end-line="224" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/producer.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/consumer.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/Serdes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/Serializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/ShortDeserializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/ShortSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/FloatSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/common/serialization/StringSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kafka_playground/kinsky_client_clone.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-playground/src/kafka_playground/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
